@@ -27,6 +27,7 @@ function App() {
           {<Route path='/users' element={<ShiftSelectionPage />} />}
           <Route path='/select-shifts' element={<ShiftSelectionPage />} />
           <Route path='/my-account' element={<MyAccountPage />} />
+          <Route path='*' element={<ShiftSelectionPage />} />
         </Route>
       }
       {
